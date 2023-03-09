@@ -1,0 +1,55 @@
+Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia.
+O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão 
+de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h.Quando eles se cruzarem 
+na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+resposta:
+
+dados - distancia entre RP e Franca = 100km
+        2 pedágios 5min = 10min = 0,17h
+        carro - 110km/h
+        caminhão - 80km/h
+
+I - O carro está indo de RB até Franca, sua equação horária é:
+
+    x1 = v1*t
+
+II - O caminhão sai de um local a 100km, sua euqação é:
+
+    x2 = 100 - v2*t
+
+III - O tempo de viagem sem o pedágio:
+
+    tsp = 100/80
+    tsp = 1,25h
+
+IV - Como ele perde 10 minutos, o tempo de viagem será tsp + 0,17h:
+
+    tviagem = 1,25 + 0,17
+    tviagem = 1,42h
+
+    logo a sua velocidade média será:
+
+    v2 = 100 / 1,42
+    v2 = 70,6km/h
+
+V - Agora podemos igualar as equações e encontrar o momento em que o caminhão e o carro
+    se encontrarão:
+
+    t1 = x1 / v1                        t2 = (x2 - 100) / -v2
+
+    x1 = x2
+
+    x / v1 = (x - 100) / -v2
+    -v2*x = v1*x - v1*100
+    x = (110 * 100) / (110 + 70,6)
+    
+    x = 60,9 Km
+
+    Essa é a distancia em que o carro e o caminhão se cruzam, e ambos estão a mesma distância
+    de Ribeirão Preto.
+
+
+
+
+        
